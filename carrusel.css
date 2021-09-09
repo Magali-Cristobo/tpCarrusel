@@ -1,0 +1,57 @@
+.imagen{
+	display: none;
+	border-radius: 10%;
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+#imagen0{
+	display: inline;
+}
+.boton{
+	border-color: transparent;
+	width: 10%;
+	height: 13%;
+	position: absolute;
+	top: 44%;
+	border-radius: 50%;
+	opacity: 0.3;
+	font-size: 300%;
+	text-align: center;
+}
+.boton:hover{
+	opacity: 0.6;
+}
+#atras{
+	left:2.5%;
+}
+#adelante{
+	right: 2.5%;
+}
+.progress{
+	margin-top: 1%;
+	margin-left: 0%;
+    width:100%; /*nos matamos haciendo esto https://cdn.discordapp.com/attachments/693115669809725450/705914439777517668/98fef7dd85d83a6c7accf07be67cb85a.png */
+    height: auto;
+}
+.progress-bar{
+	margin-left: 0%;
+	width: 0%;
+	color: rgba(6, 140, 173, 0);
+    background-color:rgba(6, 140, 173, 0.733);
+}
+.progress2{ /*es la barra de imagen actual*/
+	position: relative;
+	margin-left: 0%;
+    width:100%; 
+    height: auto;
+    margin-top: -2%;
+}
+.progress-bar2{
+	position: relative;
+	margin-left: 0%;
+    width: 0%;
+	background-color:rgba(250, 250, 250, 0.596);
+	opacity: 0.6;
+	color:rgba(255, 255, 255, 0);
+}	
